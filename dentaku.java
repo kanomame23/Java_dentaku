@@ -27,10 +27,11 @@ public class JavaSampleClass {
 			break;
 			default:
 				System.out.println("そんな式はありませーん");
+				hantei = false;
 		}
-		
+		if(hantei) {
 		System.out.println("答えは。。。");
 		System.out.println(ans);
-		
+		}
 	}
 }
